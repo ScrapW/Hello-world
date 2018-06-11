@@ -1,8 +1,7 @@
 #include <iostream>
-using namespace std;
 
 int main(){
-    cout<<"Hello world!"<<endl;
-    system("pause");
+    std::cout << "Hello world!" << std::endl;
+    std::system("pause");
     return 0;
 }
