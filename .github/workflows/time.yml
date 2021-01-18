@@ -1,4 +1,4 @@
-name: "Scheduled Hello World"
+name: "Timed Hello World"
 
 on:
   schedule:
