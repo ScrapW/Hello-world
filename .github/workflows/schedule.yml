@@ -1,7 +1,8 @@
 name: "Scheduled Hello World"
 
 on:
-    schedule: "*/1 * * * *"
+  schedule:
+    - cron: "*/1 * * * *"
 
 jobs:
   build:
